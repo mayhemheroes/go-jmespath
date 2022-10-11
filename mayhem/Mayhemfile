@@ -1,0 +1,12 @@
+# Namespaced project name that the target belongs to
+project: go-jmespath
+
+# Target name (should be unique within the project)
+target: go-jmespath-parser-fuzz
+
+# Base image to run the binary in.
+image: ghcr.io/lotdeef/go-jmespath:latest
+
+# List of commands used to test the target
+cmds:
+  - cmd: ./fuzz.libfuzzer
