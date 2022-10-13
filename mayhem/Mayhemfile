@@ -5,7 +5,7 @@ project: go-jmespath
 target: go-jmespath-parser-fuzz
 
 # Base image to run the binary in.
-image: ghcr.io/lotdeef/go-jmespath:latest
+# image: ghcr.io/lotdeef/go-jmespath:latest
 
 # List of commands used to test the target
 cmds:
