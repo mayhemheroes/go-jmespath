@@ -1,0 +1,4 @@
+project: go-jmespath
+target: go-jmespath-parser-fuzz
+cmds:
+  - cmd: ./parser-fuzz.libfuzzer
